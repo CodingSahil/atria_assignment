@@ -1,0 +1,54 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "atria-assignment",
+          "appId": "1:1036118706231:android:1cf5f9fbc43bb3d22c57b2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "atria-assignment",
+          "appId": "1:1036118706231:ios:56c03baefa58f9902c57b2",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "atria-assignment",
+          "appId": "1:1036118706231:ios:56c03baefa58f9902c57b2",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "atria-assignment",
+          "configurations": {
+            "android": "1:1036118706231:android:1cf5f9fbc43bb3d22c57b2",
+            "ios": "1:1036118706231:ios:56c03baefa58f9902c57b2",
+            "macos": "1:1036118706231:ios:56c03baefa58f9902c57b2",
+            "web": "1:1036118706231:web:86f0ef3f56cdfc272c57b2"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

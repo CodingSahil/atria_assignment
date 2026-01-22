@@ -5,17 +5,13 @@
 //   static final String noData = "assets/images/no_data_image.jpg";
 // }
 //
-// class SvgPaths {
-//   static final String eyeOpen = "assets/svg/ic_eye_open.svg";
-//   static final String eyeClose = "assets/svg/ic_eye_close.svg";
-//   static final String password = "assets/svg/ic_password.svg";
-//   static final String personMale = "assets/svg/ic_person_male.svg";
-//   static final String personFemale = "assets/svg/ic_person_female.svg";
-//   static final String noInternet = "assets/svg/ic_no_internet.svg";
-//   static final String noDataAvailable = "assets/svg/ic_not_available.svg";
-//   static final String settingsOutlined = "assets/svg/ic_settings_outlined.svg";
-//   static final String settings = "assets/svg/ic_settings.svg";
-//   static final String logo = "assets/svg/solo_logo.svg";
-//   static final String icVastraShopsLightMode = "assets/svg/vastrashops_light_mode_logo.svg";
-//   static final String icVastraShopsDarkMode = "assets/svg/vastrashops_dark_mode_logo.svg";
-// }
+class SvgPaths {
+  static final String icCalendar = "assets/icons/ic_calendar.svg";
+  static final String icCompletedCalendar = "assets/icons/ic_completed_calendar.svg";
+  static final String icDashboard = "assets/icons/ic_dashboard.svg";
+  static final String icMenuOpen = "assets/icons/ic_menu-open.svg";
+  static final String icNavigation = "assets/icons/ic_navigation.svg";
+  static final String icRemovedCalendar = "assets/icons/ic_removed_calendar.svg";
+  static final String icRocket = "assets/icons/ic_rocket.svg";
+  static final String icTasks = "assets/icons/ic_task.svg";
+}

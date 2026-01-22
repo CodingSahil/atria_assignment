@@ -19,6 +19,7 @@ class DashboardController extends GetxController {
       phone: "9876543201",
     ),
   ].obs;
+  final filters = ["Today", "Tomorrow", "This Week", "This Month"];
 
   final selectedFilter = "Today".obs;
 

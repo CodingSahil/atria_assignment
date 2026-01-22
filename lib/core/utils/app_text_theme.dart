@@ -3,16 +3,16 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppTextTheme {
   static TextStyle textStyle({required double fontSize, FontWeight? fontWeight, Color? color}) {
-    return TextStyle(
-      fontFamily: "Arimo",
-      fontSize: fontSize,
-      fontWeight: fontWeight ?? FontWeight.w500,
-      color: color,
-    );
+    return TextStyle(fontFamily: "Mulish", fontSize: fontSize, fontWeight: fontWeight ?? FontWeight.w500, color: color);
   }
 
   static Widget textTheme(String value, {required double fontSize, FontWeight? fontWeight, Color? color, int? maxLines}) {
-    return Text(value, maxLines: maxLines, style: textStyle(fontSize: fontSize, fontWeight: fontWeight, color: color));
+    return Text(
+      value,
+      maxLines: maxLines,
+      textAlign: TextAlign.center,
+      style: textStyle(fontSize: fontSize, fontWeight: fontWeight, color: color),
+    );
   }
 
   static TextTheme createTextTheme(BuildContext context, String bodyFontString, String displayFontString) {
